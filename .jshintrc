@@ -8,7 +8,6 @@
     "undef": true,
     "browser": true,
     "predef": [
-        "app",
         "$",
         "FormBot",
         "socket",

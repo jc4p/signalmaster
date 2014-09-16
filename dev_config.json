@@ -7,11 +7,15 @@
     "stunservers" : [
         {"url": "stun:stun.l.google.com:19302"}
     ],
-    "turnservers" : [
-        /*
-        { "url": "turn:your.turn.server.here",
-          "secret": "turnserversharedsecret"
-          "expiry": 86400 }
-          */
-    ]
+    "turnservers" : [],
+    "api_creds": {
+        'ident': "", //xirsys user name
+        'secret': "", // xirsys secret key 
+        'domain': "", // domain set up in xirsys dashboard
+        'application': "default",
+        'room': 'default',
+        'secure': 1
+    },
+    "private_key": "" // path to SSL private key
+    "certificate": "" // path to SSL cert
 }
